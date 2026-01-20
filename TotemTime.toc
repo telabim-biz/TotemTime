@@ -1,0 +1,7 @@
+## Interface: 11200
+## Title: TotemTime
+## Notes: Minimal Shaman Totem Timer
+## Author: You
+## Version: 1.0
+
+TotemTime.lua
