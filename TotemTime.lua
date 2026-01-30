@@ -84,15 +84,15 @@ local TOTEM_DATA = {
     ["Magma Totem"]             = { element = 2, duration = 20  },
     ["Fire Nova Totem"]         = { element = 2, duration = 5   },
     ["Flametongue Totem"]       = { element = 2, duration = 120 },
-    ["Fire Resistance Totem"]   = { element = 2, duration = 120 },
+    ["Frost Resistance Totem"]  = { element = 2, duration = 120 },
 
     -- Water
     ["Healing Stream Totem"]    = { element = 3, duration = 60  },
     ["Mana Spring Totem"]       = { element = 3, duration = 60  },
     ["Disease Cleansing Totem"] = { element = 3, duration = 120 },
     ["Poison Cleansing Totem"]  = { element = 3, duration = 120 },
-    ["Frost Resistance Totem"]  = { element = 3, duration = 120 },
-
+    ["Fire Resistance Totem"]   = { element = 3, duration = 120 },
+    
     -- Air
     ["Windfury Totem"]          = { element = 4, duration = 120 },
     ["Grace of Air Totem"]      = { element = 4, duration = 120 },
@@ -475,4 +475,5 @@ SlashCmdList["TOTEMTIMEDEBUG"] = function()
     TOTEMTIME_DEBUG = not TOTEMTIME_DEBUG
     TotemTimeDB.debug = TOTEMTIME_DEBUG
     DEFAULT_CHAT_FRAME:AddMessage("|cff00ff00TotemTime: Debug|r = " .. (TOTEMTIME_DEBUG and "ON" or "OFF"))
+
 end
